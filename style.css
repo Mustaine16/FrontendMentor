@@ -38,6 +38,10 @@ header h2 {
   align-items: center;
 }
 
+.switch-wrapper {
+  position: relative;
+}
+
 #switch {
   width: 45px;
   height: 25px;
@@ -55,6 +59,8 @@ header h2 {
   background: white;
   border-radius: 100%;
   transition: transform 0.3s;
+  position: absolute;
+  top: 3px;
 }
 
 .move {

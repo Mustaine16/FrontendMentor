@@ -1,4 +1,4 @@
-const switchInput = document.querySelector("#switch");
+const switchInput = document.querySelector(".switch-wrapper");
 
 //This indicates monthly or annually period
 //0 -> Monthly
