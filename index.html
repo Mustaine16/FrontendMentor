@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <!-- Header & Switch -->
+    <header>
+      <h2>Our Pricing</h2>
+      <div class="switch-container">
+        <span>Monthly</span>
+        <button id="switch">
+          <div id="switch-ball"></div>
+        </button>
+        <span>Annually</span>
+      </div>
+    </header>
+
+    <section class="cards-container">
+      <article class="card">
+        <h3>Basic</h3>
+        <h4 id="basic-price">$19.99</h4>
+        <div class="card-info-container">
+          <p class="card-info-item">500 GB Storage</p>
+          <p class="card-info-item">2 User Allowed</p>
+          <p class="card-info-item">Send up to 3 GB</p>
+        </div>
+        <button class="card-button">Learn More</button>
+      </article>
+      <article class="card">
+        <h3>Professional</h3>
+        <h4 id="pro-price">$24.99</h4>
+        <div class="card-info-container">
+          <p class="card-info-item">1 TB Storage</p>
+          <p class="card-info-item">5 User Allowed</p>
+          <p class="card-info-item">Send up to 10 GB</p>
+        </div>
+        <button class="card-button">Learn More</button>
+      </article>
+      <article class="card">
+        <h3>Master</h3>
+        <h4 id="master-price">$39.99</h4>
+        <div class="card-info-container">
+          <p class="card-info-item">2 TB Storage</p>
+          <p class="card-info-item">10 User Allowed</p>
+          <p class="card-info-item">Send up to 20 GB</p>
+        </div>
+        <button class="card-button">Learn More</button>
+      </article>
+    </section>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/mustaine16" target="_blank">Ezequiel</a>.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
